@@ -1,0 +1,498 @@
+R
+S1F1 W.
+S1F2 <L [2] <A "FC3100" > <A "V31210" >>.
+SSR
+S1F3 W <L [1] <U1 161 >>.
+S1F4 <L [1] <A "OnlineRemote" >>.
+FSR   
+S1F5 W <B 0x00 >.
+S1F6.
+FFR 
+S1F7 W <B 0x00 >.
+S1F8.
+TSR
+S1F9 W.
+S1F10 <L [2] <B 0x00 > <B 0x00 >>.
+SVNR
+S1F11 W <L [1] <A  >>.
+S1F12 <L [1] <L [3] <A  > <A  > <A  >>>.
+CR
+S1F13 W <L [2] <A "FC3100" > <A "V31210" >>.
+S1F14 <L [2] <B 0x00 > <L [2] <A "FC3100" > <A "V31210" >>>.
+ROFL
+S1F15 W.
+S1F16 <B 0x00 >.
+RONL
+S1F17 W.
+S1F18 <B 0x00 >.
+GA
+S1F19 W <L [3] <A  > <L [1] <A  >> <L [1] <A  >>>.
+S1F20 <L [2] <L [1] <L [1] <A  >>> <L [1] <L [2] <A  > <A  >>>>.
+SPI
+S2F1 W <L [2] <A  > <A  >>.
+S2F2 <B 0x00 >.
+SPS
+S2F3 W <B 0x00 >.
+S2F4 <B 0x00 >.
+SPR
+S2F5 W <A  >.
+S2F6 <B 0x00 >.
+CSS
+S2F7 W <A  >.
+S2F8 <B 0x00 >.
+SRR
+S2F9 W <A  >.
+S2F10 <A  >.
+SDR
+S2F11 W.
+S2F12 <L [1] <A  >>.
+ECR
+S2F13 W <L [1] <A  >>.
+S2F14 <L [1] <A  >>.
+ECS
+S2F15 W <L [1] <L [2] <A  > <A  >>>.
+S2F16 <B 0x00 >.
+DTR
+S2F17 W.
+S2F18 <A  >.
+RIS
+S2F19 W <A  >.
+S2F20 <A  >.
+RCS
+S2F21 W <A  >.
+S2F22 <A  >.
+TIS
+S2F23 W <L [5] <A  > <A  > <A  > <A  > <L [1] <A  >>>.
+S2F24 <B 0x00 >.
+LDR
+S2F25 W <B 0x00 >.
+S2F26 <B 0x00 >.
+IPR
+S2F27 W <L [3] <B 0x00 > <A  > <L [1] <A  >>>.
+S2F28 <A  >.
+ECNR
+S2F29 W <L [1] <A  >>.
+S2F30 <L [1] <L [6] <A  > <A  > <A  > <A  > <A  > <A  >>>.
+DTS
+S2F31 W <A  >.
+S2F32 <B 0x00 >.
+DR
+S2F33 W <L [2] <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S2F34 <B 0x00 >.
+LER
+S2F35 W <L [2] <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S2F36 <B 0x00 >.
+EDER
+S2F37 W <L [2] <Boolean  > <L [1] <A  >>>.
+S2F38 <B 0x00 >.
+DMBI
+S2F39 W <L [2] <A  > <A  >>.
+S2F40 <B 0x00 >.
+HCS
+S2F41 W <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S2F42 <L [2] <B 0x00 > <L [1] <L [2] <A  > <B 0x00 >>>>.
+RSSF
+S2F43 W <L [1] <L [2] <U1  > <L [1] <U1  >>>>.
+S2F44 <L [2] <B 0x00 > <L [1] <L [3] <U1  > <B 0x00 > <L [1] <U1  >>>>>.
+DVLA
+S2F45 W <L [2] <A  > <L [1] <L [2] <A  > <L [1] <L [2] <B 0x00 > <L [2] <A  > <A  >>>>>>>.
+S2F46 <L [2] <B 0x00 > <L [1] <L [3] <A  > <B 0x00 > <L [2] <B 0x00 > <B 0x00 >>>>>.
+VLAR
+S2F47 W <L [1] <A  >>.
+S2F48 <L [1] <L [2] <A  > <L [4] <A  > <A  > <A  > <L [1] <L [3] <B 0x00 > <A  > <A  >>>>>>.
+DRC
+S2F49 W <L [4] <A  > <A  > <A  > <L [1] <A  >>>.
+S2F50 <L [2] <A  > <A  >>.
+DRD
+S2F51 W <L [1] <A  >>.
+S2F52 <L [2] <L [1] <A  >> <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+TRC
+S2F53 W <L [6] <A  > <A  > <Boolean  > <L [1] <A  >> <A  > <L [8] <A  > <A  > <A  > <A  > <A  > <A  > <Boolean  > <Boolean  >>>.
+S2F54 <L [2] <A  > <A  >>.
+TRD
+S2F55 W <L [1] <A  >>.
+S2F56 <L [2] <L [1] <A  >> <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+CELR
+S2F57 W <L [4] <A  > <A  > <A  > <L [1] <A  >>>.
+S2F58 <L [3] <A  > <A  > <A  >>.
+CEUR
+S2F59 W <L [3] <A  > <A  > <A  >>.
+S2F60 <L [4] <A  > <A  > <A  > <A  >>.
+TRR
+S2F61 W <L [1] <A  >>.
+S2F62 <L [2] <L [1] <A  >> <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+MSR
+S3F1 W.
+S3F2 <L [2] <A  > <L [1] <L [3] <B 0x00 > <B 0x00 > <A  >>>>.
+TCR
+S3F3 W.
+S3F4 <L [2] <A  > <L [1] <L [3] <A  > <B 0x00 > <A  >>>>.
+MFS
+S3F5 W <L [2] <A  > <B 0x00 >>.
+S3F6 <B 0x00 >.
+MLS
+S3F7 W <L [3] <A  > <B 0x00 > <A  >>.
+S3F8 <B 0x00 >.
+IES
+S3F9 W <L [2] <A  > <A  >>.
+S3F10 <B 0x00 >.
+MIDR
+S3F11 W <B 0x00 >.
+S3F12 <L [3] <B 0x00 > <B 0x00 > <A  >>.
+MIS
+S3F13 W <L [2] <B 0x00 > <A  >>.
+S3F14 <B 0x00 >.
+RSN
+S4F1 W <L [2] <B 0x00 > <A  >>.
+S4F2 <B 0x00 >.
+SMN
+S4F3 <L [2] <B 0x00 > <A  >>.
+S4F4.
+HCN
+S4F5 <L [2] <B 0x00 > <A  >>.
+S4F6.
+ABN
+S4F7 <L [2] <B 0x00 > <A  >>.
+S4F8.
+SSN
+S4F9 <L [2] <B 0x00 > <A  >>.
+S4F10.
+SNR
+S4F11 <L [2] <B 0x00 > <A  >>.
+S4F12.
+SIN
+S4F13 <L [2] <B 0x00 > <A  >>.
+S4F14.
+MRN
+S4F15 <L [2] <B 0x00 > <A  >>.
+S4F16.
+RTR
+S4F17 W <L [2] <B 0x00 > <A  >>.
+S4F18 <B 0x00 >.
+TJ
+S4F19 W <L [2] <A  > <L [2] <A  > <L [1] <L [12] <A  > <A  > <A  > <A  > <U1  > <A  > <A  > <A  > <U1  > <U1  > <A  > <Boolean  >>>>>.
+S4F20 <L [3] <B 0x00 > <L [1] <A  >> <L [2] <Boolean  > <L [1] <L [2] <A  > <A  >>>>>.
+TC
+S4F21 W <L [3] <B 0x00 > <A  > <L [1] <L [2] <A  > <A  >>>>.
+S4F22 <L [2] <Boolean  > <L [1] <L [2] <A  > <A  >>>>.
+TJA
+S4F23 W <L [4] <B 0x00 > <A  > <U1  > <L [2] <Boolean  > <L [1] <L [2] <A  > <A  >>>>>.
+S4F24.
+MB14
+S4F25 W <L [2] <A  > <A  >>.
+S4F26 <B 0x00 >.
+HR
+S4F27 <L [2] <A  > <L [10] <A  > <A  > <A  > <A  > <U1  > <A  > <A  > <U1  > <U1  > <A  >>>.
+S4F28.
+HC
+S4F29 <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <A  >>>>.
+S4F30.
+HCC
+S4F31 <L [3] <A  > <A  > <L [2] <Boolean  > <L [1] <L [2] <A  > <A  >>>>>.
+S4F32.
+HV
+S4F33 <L [2] <A  > <L [2] <Boolean  > <L [1] <L [2] <A  > <A  >>>>>.
+S4F34.
+HCR
+S4F35 <A  >.
+S4F36.
+HCA
+S4F37 <L [2] <A  > <U1  >>.
+S4F38.
+HH
+S4F39 <A  >.
+S4F40.
+HHA
+S4F41 <L [2] <A  > <U1  >>.
+S4F42.
+ARS
+S5F1 W <L [3] <B 0x00 > <A  > <A  >>.
+S5F2 <B 0x00 >.
+EAS
+S5F3 W <L [2] <B 0x00 > <A  >>.
+S5F4 <B 0x00 >.
+LAR
+S5F5 W <A  >.
+S5F6 <L [1] <L [3] <B 0x00 > <A  > <A  >>>.
+LEAR
+S5F7 W.
+S5F8 <L [1] <L [3] <B 0x00 > <A  > <A  >>>.
+EXPN
+S5F9 W <L [5] <A  > <A  > <A  > <A  > <L [1] <A  >>>.
+S5F10.
+EXCN
+S5F11 W <L [4] <A  > <A  > <A  > <A  >>.
+S5F12.
+EXPN
+S5F13 W <L [2] <A  > <A  >>.
+S5F14 <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>.
+EXRCN
+S5F15 W <L [3] <A  > <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+S5F16.
+EXRAR
+S5F17 W <A  >.
+S5F18 <L [2] <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+TDS
+S6F1 W <L [4] <A  > <A  > <A  > <L [1] <A  >>>.
+S6F2 <B 0x00 >.
+DVS
+S6F3 W <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>.
+S6F4 <B 0x00 >.
+MBI
+S6F5 W <L [2] <A  > <A  >>.
+S6F6 <B 0x00 >.
+DDR
+S6F7 W <A  >.
+S6F8 <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>.
+FVS
+S6F9 W <L [4] <B 0x00 > <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S6F10 <B 0x00 >.
+ERS
+S6F11 W <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S6F12 <B 0x00 >.
+AERS
+S6F13 W <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>.
+S6F14 <B 0x00 >.
+ERR
+S6F15 W <A  >.
+S6F16 <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+AERR
+S6F17 W <A  >.
+S6F18 <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>.
+IRR
+S6F19 W <A  >.
+S6F20 <L [1] <A  >>.
+AIRR
+S6F21 W <A  >.
+S6F22 <L [1] <L [2] <A  > <A  >>>.
+RSD
+S6F23 W <U1  >.
+S6F24 <B 0x00 >.
+NRS
+S6F25 W <L [7] <A  > <A  > <A  > <A  > <A  > <L [1] <L [2] <A  > <A  >>> <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S6F26 <B 0x00 >.
+TRS
+S6F27 W <L [3] <A  > <A  > <L [1] <L [1] <L [2] <A  > <L [1] <A  >>>>>>.
+S6F28 <A  >.
+PPI
+S7F1 W <L [2] <A  > <A  >>.
+S7F2 <B 0x00 >.
+PPS
+S7F3 W <L [2] <A  > <A  >>.
+S7F4 <B 0x00 >.
+PPR
+S7F5 W <A  >.
+S7F6 <L [2] <A  > <A  >>.
+PIR
+S7F7 W <A  >.
+S7F8 <L [2] <A  > <A  >>.
+MMR
+S7F9 W.
+S7F10 <L [1] <L [2] <A  > <L [1] <A  >>>>.
+UMS
+S7F11 W <L [1] <L [2] <A  > <L [1] <A  >>>>.
+S7F12 <B 0x00 >.
+DES
+S7F13 W <L [1] <L [2] <A  > <L [1] <A  >>>>.
+S7F14 <B 0x00 >.
+MMS
+S7F15 W <B 0x00 >.
+S7F16 <B 0x00 >.
+DPS
+S7F17 W <L [1] <A  >>.
+S7F18 <B 0x00 >.
+RER
+S7F19 W.
+S7F20 <L [1] <A  >>.
+PCR
+S7F21 W.
+S7F22 <L [5] <A  > <A  > <A  > <A  > <L [1] <L [11] <A  > <A  > <Boolean  > <A  > <A  > <A  > <A  > <A  > <A  > <A  > <L [0]>>>>.
+FPS
+S7F23 W <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S7F24 <B 0x00 >.
+FPR
+S7F25 W <A  >.
+S7F26 <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+PVS
+S7F27 W <L [2] <A  > <L [1] <L [3] <A  > <A  > <A  >>>>.
+S7F28.
+PVI
+S7F29 W <A  >.
+S7F30 <B 0x00 >.
+VRS
+S7F31 W <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <L [1] <A  >>>>>.
+S7F32 <B 0x00 >.
+PAR
+S7F33 W <A  >.
+S7F34 <L [3] <A  > <A  > <A  >>.
+PPMR
+S7F35 W <A  >.
+S7F36 <L [3] <A  > <A  > <A  >>.
+BPR
+S8F1 W.
+S8F2 <B 0x00 >.
+EPR
+S8F3 W.
+S8F4 <B 0x00 >.
+UDN
+S9F1 <B 0x00 >.
+S9F2.
+USN
+S9F3 <B 0x00 >.
+S9F4.
+UFN
+S9F5 <B 0x00 >.
+S9F6.
+IDN
+S9F7 <B 0x00 >.
+S9F8.
+TTN
+S9F9 <B 0x00 >.
+S9F10.
+DLN
+S9F11 <B 0x00 >.
+S9F12.
+CTN
+S9F13 <L [2] <A  > <A  >>.
+S9F14.
+TRN
+S10F1 W <L [2] <B 0x00 > <A  >>.
+S10F2 <B 0x00 >.
+VTN
+S10F3 W <L [2] <B 0x00 > <A  >>.
+S10F4 <B 0x00 >.
+VTN
+S10F5 W <L [2] <B 0x00 > <L [1] <A  >>>.
+S10F6 <B 0x00 >.
+MNN
+S10F7 <B 0x00 >.
+S10F8.
+BCN
+S10F9 W <A  >.
+S10F10 <B 0x00 >.
+MSDS
+S12F1 W <L [15] <A  > <B 0x00 > <U2  > <U2  > <B 0x00 > <U1  > <L [1] <A  >> <A  > <A  > <A  > <A  > <A  > <A  > <A  > <B 0x00 >>.
+S12F2 <B 0x00 >.
+MSDR
+S12F3 W <L [9] <A  > <B 0x00 > <B 0x00 > <U2  > <U2  > <B 0x00 > <B 0x00 > <A  > <A  >>.
+S12F4 <L [15] <A  > <B 0x00 > <U2  > <B 0x00 > <U1  > <L [1] <A  >> <A  > <A  > <A  > <A  > <A  > <A  > <A  > <A  > <A  >>.
+MAPTI
+S12F5 W <L [4] <A  > <B 0x00 > <B 0x00 > <A  >>.
+S12F6 <B 0x00 >.
+MDS1
+S12F7 W <L [3] <A  > <B 0x00 > <L [1] <L [2] <A  > <A  >>>>.
+S12F8 <B 0x00 >.
+MDS2
+S12F9 W <L [4] <A  > <B 0x00 > <A  > <A  >>.
+S12F10 <B 0x00 >.
+MDS3
+S12F11 W <L [3] <A  > <B 0x00 > <L [1] <L [2] <A  > <A  >>>>.
+S12F12 <B 0x00 >.
+MDR1
+S12F13 W <L [2] <A  > <B 0x00 >>.
+S12F14 <L [3] <A  > <B 0x00 > <L [1] <L [2] <A  > <A  >>>>.
+MDR2
+S12F15 W <L [2] <A  > <B 0x00 >>.
+S12F16 <L [4] <A  > <B 0x00 > <A  > <A  >>.
+MDR3
+S12F17 W <L [3] <A  > <B 0x00 > <B 0x00 >>.
+S12F18 <L [3] <A  > <B 0x00 > <L [1] <L [2] <A  > <A  >>>>.
+MERS
+S12F19 <L [2] <B 0x00 > <U1  >>.
+S12F20.
+DSSS
+S13F1 W <L [1] <A  >>.
+S13F2 <L [2] <A  > <B 0x00 >>.
+DSOR
+S13F3 W <L [3] <A  > <A  > <U4  >>.
+S13F4 <L [5] <A  > <A  > <B 0x00 > <A  > <A  >>.
+DSRR
+S13F5 W <L [2] <A  > <A  >>.
+S13F6 <L [4] <A  > <B 0x00 > <U4  > <L [1] <A  >>>.
+DSCS
+S13F7 W <L [1] <A  >>.
+S13F8 <L [2] <A  > <B 0x00 >>.
+DSRS
+S13F9 W.
+S13F10.
+GAR
+S14F1 W <L [5] <A  > <A  > <L [1] <A  >> <L [1] <L [3] <A  > <A  > <U1  >>> <L [1] <A  >>>.
+S14F2 <L [2] <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>> <L [2] <U1  > <L [1] <L [2] <A  > <A  >>>>>.
+SAR
+S14F3 W <L [4] <A  > <A  > <L [1] <A  >> <L [2] <A  > <A  >>>.
+S14F4 <L [2] <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>> <L [2] <U1  > <L [1] <L [2] <A  > <A  >>>>>.
+GTR
+S14F5 W <A  >.
+S14F6 <L [2] <L [1] <A  >> <L [2] <U1  > <L [1] <L [2] <A  > <A  >>>>>.
+GANR
+S14F7 W <L [2] <A  > <L [1] <A  >>>.
+S14F8 <L [2] <L [1] <L [2] <A  > <L [1] <A  >>>> <L [2] <U1  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F1_P
+S15F1 W <L [3] <A  > <A  > <A  >>.
+S15F2 <A  >.
+S15F3_P
+S15F3 W <L [2] <A  > <A  >>.
+S15F4 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F5_P
+S15F5 W <L [2] <A  > <A  >>.
+S15F6 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F7_P
+S15F7 W <A  >.
+S15F8 <L [2] <A  > <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F9_P
+S15F9 W <A  >.
+S15F10 <L [3] <A  > <A  > <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F11_P
+S15F11 W <L [4] <A  > <A  > <A  > <A  >>.
+S15F12 <L [3] <A  > <A  > <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F13_P
+S15F13 W <L [5] <A  > <Boolean  > <A  > <L [1] <L [2] <A  > <A  >>> <A  >>.
+S15F14 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F15_P
+S15F15 W <L [4] <A  > <A  > <A  > <L [3] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>> <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>>.
+S15F16 <L [3] <A  > <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F17P
+S15F17 W <L [2] <A  > <A  >>.
+S15F18 <L [2] <L [3] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>> <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>> <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F19_P
+S15F19 W <L [3] <A  > <Boolean  > <A  >>.
+S15F20 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F21_P
+S15F21 W <L [6] <A  > <A  > <A  > <A  > <A  > <L [1] <A  >>>.
+S15F22 <L [4] <A  > <A  > <A  > <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F23_P
+S15F23 W <L [3] <A  > <A  > <L [1] <A  >>>.
+S15F24 <L [2] <L [1] <L [1] <L [3] <A  > <A  > <A  >>>> <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F25_P
+S15F25 W <L [4] <A  > <A  > <A  > <L [1] <L [3] <A  > <A  > <A  >>>>.
+S15F26 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F27_P
+S15F27 W <L [5] <A  > <Boolean  > <A  > <L [1] <L [2] <A  > <A  >>> <A  >>.
+S15F28 <L [3] <A  > <L [1] <L [2] <A  > <A  >>> <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F29_P
+S15F29 W <L [4] <A  > <A  > <A  > <L [1] <A  >>>.
+S15F30 <L [5] <A  > <A  > <A  > <L [1] <L [2] <A  > <A  >>> <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F31_P
+S15F31 W <A  >.
+S15F32 <L [4] <A  > <L [1] <L [2] <A  > <A  >>> <A  > <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>.
+S15F33_P
+S15F33 W <L [3] <A  > <A  > <L [1] <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>>>.
+S15F34 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+S15F35_P
+S15F35 W <L [4] <A  > <A  > <A  > <L [1] <A  >>>.
+S15F36 <L [2] <A  > <L [1] <L [2] <A  > <A  >>>>.
+PRJI
+S16F1 W <L [2] <A  > <A  >>.
+S16F2 <B 0x00 >.
+PRJCA
+S16F3 W <L [5] <A  > <A  > <L [1] <A  >> <L [3] <A  > <A  > <L [1] <L [2] <A  > <A  >>>> <Boolean  >> <L [2] <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+S16F4.
+PRJCMDR
+S16F5 W <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <A  >>>>.
+S16F6 <L [2] <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+PRJA
+S16F7 W <L [4] <A  > <A  > <A  > <L [2] <Boolean  > <L [2] <A  > <A  >>>>.
+S16F8.
+PRJE
+S16F9 W <L [4] <A  > <A  > <A  > <L [1] <L [2] <A  > <A  >>>>.
+S16F10.
